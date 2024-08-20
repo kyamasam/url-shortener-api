@@ -102,15 +102,15 @@ WSGI_APPLICATION = 'urlshortner.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # }
-  'default': dj_database_url.config(
-        # Replace this value with your local database's connection string.
-        default='postgresql://url_shortener_uq2g_user:YBye7yS1ugjcNpNsqx0Z0FVRiCuCWGqY@dpg-cr27hbrqf0us739o694g-a/url_shortener_uq2g_rg0x',
-        conn_max_age=600
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+  # 'default': dj_database_url.config(
+  #       # Replace this value with your local database's connection string.
+  #       default='postgresql://url_shortener_uq2g_user:YBye7yS1ugjcNpNsqx0Z0FVRiCuCWGqY@dpg-cr27hbrqf0us739o694g-a/url_shortener_uq2g_rg0x',
+  #       conn_max_age=600
+  #   )
 }
 
 
