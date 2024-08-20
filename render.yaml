@@ -1,8 +1,8 @@
 databases:
   - name: url-shortener-api
     plan: free
-    databaseName: mysite
-    user: mysite
+    databaseName: url_shortener_uq2g
+    user: url_shortener_uq2g_user
 
 services:
   - type: web
