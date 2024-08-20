@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'url-shortener-api-d7g9.onrender.com',
-    'kyamasam.pythonanywhere.com/'
+    'kyamasam.pythonanywhere.com'
 ]
 
 
