@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-vw2v*9i^@jz4u6p(z8nr(g%k5xnm)2yu*6!meg$&=fvp$nl3$h
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'url-shortener-api-d7g9.onrender.com'
+    'url-shortener-api-d7g9.onrender.com',
+    'kyamasam.pythonanywhere.com/'
 ]
 
 
