@@ -74,7 +74,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
-    'https://fpsh.netlify.app/'
+    'https://fpsh.netlify.app'
 ]
 ROOT_URLCONF = 'urlshortner.urls'
 
@@ -108,7 +108,7 @@ DATABASES = {
     # }
   'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://url_shortener_uq2g_user:mTSI9NwuPeBTczNxyMIyKbIFaePR5WGT@dpg-cr25f60gph6c73bgem30-a.oregon-postgres.render.com/url_shortener_uq2g',
         conn_max_age=600
     )
 }
